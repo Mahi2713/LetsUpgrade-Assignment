@@ -1,0 +1,79 @@
+# Assignment 1
+
+# List
+li=["Arnav","Mahi",2713,24656.36]
+print(li)
+print(type(li))
+
+li.append(446)
+print(li)
+a=li.index("Mahi")
+print(a)
+b=li.pop()
+print(b)
+li.reverse()
+print(li)
+li.clear()
+print(li)
+
+# Dictionary
+di={
+    "name" : "Mahi" ,
+    "age" : "17",
+    "phone" : 9146680726,
+    "email" : "mahiufsg@gmail.com"
+}
+print(di)
+print(type(di))
+
+c=di.get('name')
+print(c)
+d=di.items()
+print(d)
+e=di.keys()
+print(e)
+f=di.values()
+print(f)
+di.clear()
+print(di)
+
+# Sets
+st={"arnav",256,256,618.334,"Mahi"}
+print(st)
+print(type(st))
+
+g=st.pop()
+print(g)
+h=st.copy()
+print(h)
+i={"arnav"}
+print(i.issubset(st))
+j={"arnav",256,618.334,"Mahi",342,"singh"}
+print(j.issuperset(st))
+st.clear()
+print(st)
+
+# Tuple
+tu=("Arnav","Arnav",2,2,3,4,4,5,6,578,"Mahi")
+print(tu)
+print(type(tu))
+
+k=tu.index("Mahi")
+print(k)
+l=tu.count(4)
+print(l)
+print(len(tu))
+
+# Strings
+s="I am an intelligent cum sophisticated person"
+print(s)
+print(type(s))
+
+print(len(s))
+m=s.count("a")
+print(m)
+n=s.upper()
+print(n)
+o=s.lower()
+print(o)
+print(o.islower())
